@@ -8,11 +8,14 @@ h1 {
     margin:0;
 }
 ol {
-    font-size: 20px;
+    font-size: 40px;
     border-right : 3px gray solid;
-    width : 180px;
+    width : 400px;
     margin : 0px;
     padding : 20px;
+}
+body {
+    margin-left: 50px;
 }
 span {
     font-size : 15px;
@@ -20,15 +23,7 @@ span {
     border : solid coral 4px;
     padding : 5px 10px 5px 10px
 }
-#grid {
-    display : grid;
-    grid-template-columns: 1fr 8fr;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-#wook {
-    padding-left : 20px;
-}
+
 @media(max-width:800px){
     #grid {
     display : block;
