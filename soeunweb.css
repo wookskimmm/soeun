@@ -1,0 +1,39 @@
+a {
+    color : black;
+    text-decoration: none;
+}
+h1 {
+    border-bottom : solid 1px gray;
+    text-decoration : none;
+    margin:0;
+}
+ol {
+    font-size: 20px;
+    border-right : 3px gray solid;
+    width : 180px;
+    margin : 0px;
+    padding : 20px;
+}
+span {
+    font-size : 15px;
+    font-style: italic;
+    border : solid coral 4px;
+    padding : 5px 10px 5px 10px
+}
+#grid {
+    display : grid;
+    grid-template-columns: 1fr 8fr;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#wook {
+    padding-left : 20px;
+}
+@media(max-width:800px){
+    #grid {
+    display : block;
+    padding-left: 0px;
+    padding-right: 0px;}
+    ol {
+    border-right : none; }
+}
